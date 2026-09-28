@@ -1,0 +1,1 @@
+Starting the project that consists in saving and loadinng models with application to the EuroSat dataset.
