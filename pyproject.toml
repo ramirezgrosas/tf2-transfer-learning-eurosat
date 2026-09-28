@@ -1,7 +1,7 @@
 [project]
 name = "tf2-transfer-learning-eurosat"
 version = "0.1.0"
-description = "Add your description here"
+description = "CNN for EuroSAT satellite image classification, focused on saving/loading model checkpoints with TensorFlow 2 (Keras)."
 readme = "README.md"
 authors = [
     { name = "Diego Ramirez Rosas", email = "ramirezgrosas@gmail.com" }
