@@ -1964,6 +1964,18 @@ wheels = [
 ]
 
 [[package]]
+name = "tf-keras"
+version = "2.21.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "tensorflow" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/76/80/b005b59f9ccdbabc1b6cd07ca1126cbd4d902288438f0c00072f91a43c6f/tf_keras-2.21.0.tar.gz", hash = "sha256:f9af0f2546cd5532de0fae7a481f34a1ca2253737d4cd1000f6b713dc733f770", size = 1255377, upload-time = "2026-03-18T22:12:02.103Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c5/d2/5220e3b93444f1c57c092ab5eb2c30cdc762a6e412234750f2d6a85b3769/tf_keras-2.21.0-py3-none-any.whl", hash = "sha256:f858bf3d97f892304e7fbcf5eb0942ed91674e27204f940a85de8c93cf07fe62", size = 1694939, upload-time = "2026-03-18T22:12:00.662Z" },
+]
+
+[[package]]
 name = "tf2-transfer-learning-eurosat"
 version = "0.1.0"
 source = { editable = "." }
@@ -1972,6 +1984,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "pandas" },
     { name = "tensorflow" },
+    { name = "tf-keras" },
 ]
 
 [package.metadata]
@@ -1980,6 +1993,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "pandas", specifier = ">=3.0.6" },
     { name = "tensorflow", specifier = ">=2.21.0" },
+    { name = "tf-keras", specifier = ">=2.21.0" },
 ]
 
 [[package]]
